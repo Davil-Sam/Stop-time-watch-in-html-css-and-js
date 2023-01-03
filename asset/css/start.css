@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("/asset/img/Superman.jpg");
+    background-size: 100% 100%;
+}
+
+.overly {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-container {
+    color: white;
+}
+
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.btn-container {
+    align-items: center;
+    text-align: center;
+    /* font-size: 500px; */
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+
+    background: #8e0e00;
+    background: -webkit-linear-gradient(to right, #8e0e00, #1f1c18);
+    background: linear-gradient(to left, #8e0e00, #1f1c18);
+    border: 2px solid rgb(145, 4, 180);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+
+
+span {
+    font-size: 50px;
+}
+
+
+
+button:hover {
+    background: rgba(0, 0, 0, 0.7);
+    transform: translateY(-5%);
+}
+.download{
+    margin-left: 240px;
+    font-size: 20px;
+    color: white;
+    /* margin: 15px; */
+    padding: 15px;
+
+    background: #8e0e00;
+    background: -webkit-linear-gradient(to right, #8e0e00, #1f1c18);
+    background: linear-gradient(to left, #8e0e00, #1f1c18);
+    border: 2px solid rgb(145, 4, 180);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width:650px) {
+    .time{
+        text-align: center;
+    }
+
+    .digit{
+        font-size: 50px;
+        text-align: center;
+    }
+    span{
+        font-size: 20px;
+        /* text-align: center; */
+    }
+    /* .btn{ */
+        /* margin: 5px; */
+        /* font-size: 2px; */
+        /* padding: 5px; */
+        /* border-radius: 15px; */
+    /* } */
+    /* .download{ */
+        /* margin-left: 40px; */
+    /* } */
+}
